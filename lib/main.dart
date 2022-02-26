@@ -33,7 +33,7 @@ class App extends StatelessWidget {
     //consuming the provider
     final themeNotifier = Provider.of<BlocTheme>(context);
     return MaterialApp(
-      debugShowCheckedModeBanner: false,
+   
       initialRoute: "register",
       routes: getAplicationRoutes,
       theme: themeNotifier.getTheme(),
